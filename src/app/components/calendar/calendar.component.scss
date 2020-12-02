@@ -1,0 +1,25 @@
+:host {
+
+  .calendar-container {
+
+    .calendar {
+      display: flex;
+      flex-direction: row;
+
+      .day {
+        width: 40px;
+        height: 40px;
+        background-color: #f3f3f3;
+        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor:pointer;
+
+        &:hover {
+          background-color: #e6e6e6;
+        }
+      }
+    }
+  }
+}

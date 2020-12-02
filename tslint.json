@@ -80,6 +80,7 @@
       true,
       "single"
     ],
+    "no-trailing-whitespace": false,
     "semicolon": {
       "options": [
         "always"
