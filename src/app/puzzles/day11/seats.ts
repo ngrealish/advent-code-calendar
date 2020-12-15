@@ -101,14 +101,15 @@ export const SEATS = [
 ];
 
 export const EXAMPLE = [
-  'L.LL.LL.LL',
-  'LLLLLLL.LL',
-  'L.L.L..L..',
-  'LLLL.LL.LL',
-  'L.LL.LL.LL',
-  'L.LLLLL.LL',
-  '..L.L.....',
-  'LLLLLLLLLL',
-  'L.LLLLLL.L',
-  'L.LLLLL.LL',
+  'L.LL.LL.LL', // 0
+  'LLLLLLL.LL', // 1
+  'L.L.L..L..', // 2
+  'LLLL.LL.LL', // 3
+  'L.LL.LL.LL', // 4
+  'L.LLLLL.LL', // 5
+  '..L.L.....', // 6
+  'LLLLLLLLLL', // 7
+  'L.LLLLLL.L', // 8
+  'L.LLLLL.LL', // 9
 ];
+//'0123456789'
