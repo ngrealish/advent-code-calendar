@@ -32,12 +32,11 @@ export class Day15Component implements OnInit {
   }
 
   getLastNumber(maxNum) {
+
     const saidNums = new Map();
     this.numbers.slice(0, this.numbers.length - 1).forEach((n, i) => saidNums.set(n, i));
-
     let lastNum = this.numbers[this.numbers.length - 1];
     let j = this.numbers.length;
-
     while (j < maxNum) {
       let thisNum = 0;
       if (saidNums.has(lastNum)) {
